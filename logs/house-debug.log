@@ -1,0 +1,8 @@
+2018-05-10 22:21:09.788  [http-nio-8083-exec-1] DEBUG [com.mooc.house.user.mapper.AgencyMapper.select:] [40dbab785f258602,857402fa5aac4cbc] - ==> Parameters: 
+2018-05-10 22:21:09.825  [http-nio-8083-exec-1] DEBUG [com.mooc.house.user.mapper.AgencyMapper.select:] [40dbab785f258602,857402fa5aac4cbc] - <==      Total: 4
+2018-05-10 22:22:19.165  [http-nio-8083-exec-3] DEBUG [com.mooc.house.user.mapper.UserMapper.select:] [3bd7d67fbb624cbc,f59f897b7004052f] - ==>  Preparing: select id, name, phone, email, aboutme, passwd, avatar, type, create_time, enable, agency_id from user WHERE email = ? 
+2018-05-10 22:22:19.171  [http-nio-8083-exec-3] DEBUG [com.mooc.house.user.mapper.UserMapper.select:] [3bd7d67fbb624cbc,f59f897b7004052f] - ==> Parameters: 1457632257@qq.com(String)
+2018-05-10 22:22:19.197  [http-nio-8083-exec-3] DEBUG [com.mooc.house.user.mapper.UserMapper.select:] [3bd7d67fbb624cbc,f59f897b7004052f] - <==      Total: 0
+2018-05-10 22:22:20.329  [http-nio-8083-exec-4] DEBUG [com.mooc.house.user.mapper.UserMapper.insert:] [3bd7d67fbb624cbc,f84e0355e8b07fa0] - ==>  Preparing: insert into user ( name, phone, email, aboutme, passwd, avatar, type, create_time, enable ) values( ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2018-05-10 22:22:20.339  [http-nio-8083-exec-4] DEBUG [com.mooc.house.user.mapper.UserMapper.insert:] [3bd7d67fbb624cbc,f84e0355e8b07fa0] - ==> Parameters: qqqqqqqqqqqqqqqqq(String), 18854223687(String), 1457632257@qq.com(String), 1231546(String), 9ed0840086f726156fb3daea71657be6(String), (String), 1(Integer), 2018-05-10 22:22:20.243(Timestamp), 0(Integer)
+2018-05-10 22:22:20.469  [http-nio-8083-exec-4] DEBUG [com.mooc.house.user.mapper.UserMapper.insert:] [3bd7d67fbb624cbc,f84e0355e8b07fa0] - <==    Updates: 1
